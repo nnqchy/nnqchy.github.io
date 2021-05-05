@@ -1,0 +1,35 @@
+body {
+  font-size: 18px;
+}
+
+header,
+main,
+footer {
+  max-width: 760px;
+  margin: 0 auto;
+}
+header,
+footer {
+  text-align: center;
+    color:#FFF;  
+  padding: .8rem;
+  background-color: #4766ff;
+  border-radius: 5%;
+}
+
+header img {
+  float: right;
+  width: 250px;
+  height: auto;
+  border-radius: 25px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
